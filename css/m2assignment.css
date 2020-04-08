@@ -12,30 +12,6 @@
 	
 }
 
-.menu_container_1 {
-	background: #aaaaaa;
-	color: #000000;	
-	box-sizing: border-box;
-	border-style: solid;
-	border-color: #000000;
-}
-
-.menu_container_2 {
-	background: #aaaaaa;
-	color: #000000;	
-	box-sizing: border-box;
-	border-style: solid;
-	border-color: #000000;
-	
-}
-
-.menu_container_3 {
-	background: #aaaaaa;
-	color: #000000;	
-	box-sizing: border-box;
-	border-style: solid;
-	border-color: #000000;
-}
 
 #chicken {
 	background: #00539C;
@@ -84,61 +60,103 @@ p {
 }
 
 @media (min-width: 992px){
-	.menu_container_1 {
+	.menu_container_lg_1 {
 		width: 31.99%;
-		float: left;
-		overflow: auto;
 		margin: 1% 0% 1% 1%;
-	}
-	.menu_container_2 {
-		width: 31.99%;
+		background: #aaaaaa;
+		color: #000000;	
+		box-sizing: border-box;
+		border-style: solid;
+		border-color: #000000;
 		float: left;
-		overflow: auto;
+	}
+	.menu_container_lg_2 {
+		width: 31.99%;
 		margin: 1% 0% 1% 1%;
-	}
-	.menu_container_3 {
-		width: 31.99%;
+		background: #aaaaaa;
+		color: #000000;	
+		box-sizing: border-box;
+		border-style: solid;
+		border-color: #000000;
 		float: left;
-		overflow: auto;
+	}
+	.menu_container_lg_3 {
+		width: 31.99%;
 		margin: 1%;
+		background: #aaaaaa;
+		color: #000000;	
+		box-sizing: border-box;
+		border-style: solid;
+		border-color: #000000;
+		float: left;
 	}
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-	.menu_container_m1 {
+	.menu_container_md_1 {
 		width: 48.5%;
-		float: left;
-		overflow: auto;
 		margin: 1% 0% 1% 1%;
+		background: #aaaaaa;
+		color: #000000;	
+		box-sizing: border-box;
+		border-style: solid;
+		border-color: #000000;
+		float: left;
 	}
-	.menu_container_m2 {
+	.menu_container_md_2 {
 		width: 48.5%;
-		float: left;
-		overflow: auto;
 		margin: 1%;
-	}
-	.menu_container_m3 {
-		width: 98%;
+		background: #aaaaaa;
+		color: #000000;	
+		box-sizing: border-box;
+		border-style: solid;
+		border-color: #000000;
 		float: left;
-		overflow: auto;
+	}
+	.menu_container_md_3 {
+		width: 98%;
 		margin: 0% 1% 1% 1%;
+		background: #aaaaaa;
+		color: #000000;	
+		box-sizing: border-box;
+		border-style: solid;
+		border-color: #000000;
+		float: left;
 	}
 	
 
 }
 @media ( max-width: 767px ) {
-	.menu_container_1 {
+	.menu_container_sm_1 {
 		width: 98%;
 		margin: 1%;
+		background: #aaaaaa;
+		color: #000000;	
+		box-sizing: border-box;
+		border-style: solid;
+		border-color: #000000;
+		float: left;
 	}
-	.menu_container_2 {
+	.menu_container_sm_2 {
 		width: 98%;
-		margin: 1%;
+		margin: 0% 1% 1% 1%;
+		background: #aaaaaa;
+		color: #000000;	
+		box-sizing: border-box;
+		border-style: solid;
+		border-color: #000000;
+		float: left;
 	}
-	.menu_container_3 {
+	.menu_container_sm_3 {
 		width: 98%;
-		margin: 1%;
+		margin: 0% 1% 1% 1%;
+		background: #aaaaaa;
+		color: #000000;	
+		box-sizing: border-box;
+		border-style: solid;
+		border-color: #000000;
+		float: left;
 	}
 
 }
